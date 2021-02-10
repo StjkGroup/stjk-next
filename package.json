@@ -1,0 +1,64 @@
+{
+  "name": "@stjk/next",
+  "version": "0.0.1-alpha.1",
+  "description": "stjk next react config",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development PORT=8000 node ./devServer/config.js",
+    "clear": "rm -rf .next out",
+    "build": "npm run clear && next build && next export",
+    "pub": "npm publish --access=public"
+  },
+  "private": false,
+  "keywords": [
+    "fay",
+    "fay-next",
+    "next.js",
+    "react",
+    "fay-react-tool",
+    "frontend"
+  ],
+  "contributors": [
+    "love-fay"
+  ],
+  "bugs": {
+    "url": "https://github.com/StjkGroup/stjk-next/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StjkGroup/stjk-next"
+  },
+  "main": "*",
+  "module": "*",
+  "files": [
+    "config/",
+    "README.md"
+  ],
+  "email": "869770665@qq.com",
+  "author": "fay",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "@types/node": "^14.14.20",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "next": "^10.0.5",
+    "next-offline": "^5.0.3",
+    "sass": "^1.32.2",
+    "sharp": "^0.27.0",
+    "typescript": "^4.1.3",
+    "whatwg-fetch": "^3.5.0"
+  },
+  "devEngines": {
+    "node": "13.x || 14.x || 15.x"
+  }
+}
