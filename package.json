@@ -1,6 +1,6 @@
 {
   "name": "@stjk/next",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha.3",
   "description": "stjk next react config",
   "scripts": {
     "start": "cross-env NODE_ENV=development PORT=8000 node ./devServer/config.js",
@@ -41,22 +41,22 @@
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/preset-react": "^7.12.10",
-    "@babel/preset-typescript": "^7.12.7",
-    "@babel/runtime-corejs3": "^7.12.5",
-    "@types/node": "^14.14.20",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/runtime-corejs3": "^7.13.17",
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
-    "next": "^10.0.5",
+    "next": "^10.1.3",
     "next-offline": "^5.0.3",
     "sass": "^1.32.2",
     "sharp": "^0.27.0",
-    "typescript": "^4.1.3",
-    "whatwg-fetch": "^3.5.0"
+    "typescript": "^4.2.4",
+    "whatwg-fetch": "^3.6.2"
   },
   "devEngines": {
     "node": "13.x || 14.x || 15.x"

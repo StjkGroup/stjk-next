@@ -8,7 +8,7 @@ export default function MyApp(props: AppProps) {
   return (
     <React.Fragment>
       <Head>
-        <title>@fay-next/config</title>
+        <title>@stjk/next</title>
         <meta name="keywords" content="DataBrowser"/>
         <meta name="description" content="DataBrowser"/>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>

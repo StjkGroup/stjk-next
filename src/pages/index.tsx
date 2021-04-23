@@ -5,7 +5,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <h3 style={{textAlign: 'center', marginTop: '100px'}}>Welcome to use @fay-next/config!</h3>
+    <h3 style={{textAlign: 'center', marginTop: '100px'}}>Welcome to use @stjk/next!</h3>
   )
 }
 
