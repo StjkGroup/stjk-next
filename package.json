@@ -1,6 +1,6 @@
 {
   "name": "@stjk/next",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "stjk next react config",
   "scripts": {
     "start": "cross-env NODE_ENV=development PORT=8000 node ./devServer/config.js",

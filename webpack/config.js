@@ -4,7 +4,8 @@
 // const {getPWAPlugin} = require('./pwaPlugin');
 const path = require('path');
 
-module.exports = (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+module.exports = (customizedWebpack) => (config, options) => {
+  const { buildId, dev, isServer, defaultLoaders, webpack } = options;
   // Note: we provide webpack above so you should not `require` it
   // Perform customizations to webpack config
   // Important: return the modified config
@@ -28,5 +29,8 @@ module.exports = (config, { buildId, dev, isServer, defaultLoaders, webpack }) =
   }
   config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//));
   // config.plugins.push(getPWAPlugin());
+  if(customizedWebpack){
+    customizedWebpack(config, options);
+  }
   return config;
 }
