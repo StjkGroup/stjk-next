@@ -1,6 +1,6 @@
 {
   "name": "@stjk/next",
-  "version": "0.0.1-alpha.4",
+  "version": "0.0.1-alpha.5",
   "description": "stjk next react config",
   "scripts": {
     "start": "cross-env NODE_ENV=development PORT=8000 node ./devServer/config.js",
@@ -55,6 +55,7 @@
     "next-offline": "^5.0.3",
     "sass": "^1.32.2",
     "sharp": "^0.27.0",
+    "tsc-alias": "^1.2.10",
     "typescript": "^4.2.4",
     "whatwg-fetch": "^3.6.2"
   },
