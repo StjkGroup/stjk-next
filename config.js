@@ -25,6 +25,7 @@ const withNextConfig = ({assetPrefix='', env, generateInDevMode=false, webpack, 
     dontAutoRegisterSw: true,
     workboxOpts: {
       swDest,
+      modifyURLPrefix: { 'autostatic/': '_next/static/' },
       clientsClaim: true,
       skipWaiting: true,
       maximumFileSizeToCacheInBytes: 5242880,
